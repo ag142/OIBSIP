@@ -45,8 +45,6 @@ body {
     margin-bottom: 20px;
   }
   
-  /* Additional Styling for a Unique Design */
-  
   .container {
     position: relative;
   }
@@ -76,8 +74,6 @@ body {
     background-color: #f8f8f8;
     border-radius: 0 0 5px 5px;
   }
-  
-  /* Styling for the "Read More" Button */
   
   .read-more {
     display: inline-block;
