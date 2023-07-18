@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #0b18ce;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  .input-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-section input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .input-section button {
+    padding: 10px 20px;
+    background-color: #0061e0;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .task-lists {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .pending-tasks,
+  .completed-tasks {
+    flex: 1;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #073db2;
+    margin: 0 0 10px;
+    border-bottom: 2px solid #2a3fcb;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li:hover {
+    background-color: #f6f6f6;
+  }
+  
+  .completed-task {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #207ec1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
